@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Crib</title>
+		<link href="/style.css" rel="stylesheet" type="text/css" media="all">
+		<style>
+			body {
+				background: url("/images/background.jpg");
+				color: #0cf;
+				font-family: verdana;
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				background-size: cover;
+
+				margin: 1em 2em 0 2em;	
+			}
+
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				width: 200px;
+				background-color: #000000;
+			}
+
+			li a {
+				display: block;
+				color: #00ccff;
+				padding: 8px 16px;
+				text-decoration: none;
+			}
+
+			li a:hover {
+				background-color: #00ccff;
+				color:#000000;
+			}
+		<style>
+	</head>
+	<body>
+		<div class="section header">
+			<h1>Lognes' Crib</h1>
+			<h2>Project room</h2>
+			<h3><a href="/">Go Back</a></h3>
+		</div>
+		<div class="section">
+			<h2>I'm not currently working on any projects</h2>
+		</div>
+		<div class="section">
+			<audio id="audioTag" loop autoplay controls src="/audio/sadcity.mp3">
+			</audio>
+			<script>
+				var audioTag = document.getElementById("audioTag");
+				audioTag.volume = 0.6;
+			</script>
+		</div>
+	</body>
+</html>

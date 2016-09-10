@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Crib</title>
+		<link href="/style.css" rel="stylesheet" type="text/css" media="all">
+		<style>
+			body {
+				background: url("/images/background.jpg");
+				color: #0cf;
+				font-family: verdana;
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				background-size: cover;
+
+				margin: 1em 2em 0 2em;	
+			}
+
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				width: 200px;
+				background-color: #000000;
+			}
+
+			li a {
+				display: block;
+				color: #00ccff;
+				padding: 8px 16px;
+				text-decoration: none;
+			}
+
+			li a:hover {
+				background-color: #00ccff;
+				color:#000000;
+			}
+		<style>
+	</head>
+	<body>
+		<div class="section header">
+			<h1>Lognes' Crib</h1>
+		</div>
+		<div class="section">
+			<h2>Quotes</h2>
+			<img src="/images/bowquote.png">
+			<img src="/images/pataquote.png">
+		</div>
+		<div class="section">
+			<h2>Other Pages</h2>
+			<ul>
+				<li><a href="/projects">Projects</a></li>
+			</ul>
+		</div>
+		<div class="section">
+			<h2>My Accounts / Websites</h2>
+			<ul>
+				<li><a href="https://www.youtube.com/channel/UCZd7dUoRgKia_kzQ9rzdGvQ">Youtube</a></li>
+				<li><a href="http://the-lognes-monster.tumblr.com/">Tumblr</a></li>
+				<li><a href="https://twitter.com/Logn3s">Twitter</a></li>
+    		</ul>
+		</div>
+		<div class="section">
+			<audio id="audioTag" loop autoplay controls src="/audio/sadcity.mp3">
+			</audio>
+			<script>
+				var audioTag = document.getElementById("audioTag");
+				audioTag.volume = 0.6;
+			</script>
+		</div>
+	</body>
+</html>

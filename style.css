@@ -1,0 +1,25 @@
+.class {
+    background:rgba(0,0,0,0.5);
+}
+
+.section {
+  padding-top: 12px;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 12px;
+}
+
+.section p:first-child {
+    margin-top: 0px;
+}
+
+a {
+     color: #000;
+}
+		  
+a:visited {
+    color: #0cf;
+}
+
+.section audio {
+  margin-top: 18px;
+}
